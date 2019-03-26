@@ -26,7 +26,15 @@ class arithmetic
 	cout << x*y ;
 	break;
 
-	case 4;
+	case 4:
 	cout << x%y ;
 	break;
+
+	default:
+	cout << "wrong choice";
+	break;
+	}
+   return 0;
+ }
+
    
