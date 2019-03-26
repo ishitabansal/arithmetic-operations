@@ -3,8 +3,30 @@ using namespace std;
 class arithmetic
 {
   public :
+  char op;
   int x , y;
   private :
   void member1 ()
   void member2 () 
  }
+ int main ()
+ {
+    cin >> op;
+    cin >> x >> y;
+    switch (op){
+        case 1:
+	cout << x+y ;
+	break;
+
+	case 2:
+	cout << x-y ;
+	break;
+
+	case 3:
+	cout << x*y ;
+	break;
+
+	case 4;
+	cout << x%y ;
+	break;
+   
