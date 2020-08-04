@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-class arithmetic
+class arithmetic                  //define a claas 
 {
   public :
   char op;
   int x , y;
-  private :
+  private :                   //declare  private 
   void member1 ()
   void member2 () 
  }
